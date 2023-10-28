@@ -1,0 +1,5 @@
+# Ignore mac stuffx
+.DS_Store
+addons/.DS_Store
+addons/basic_components/.DS_Store
+addons/basic_components/components/hurtbox/.DS_Store
