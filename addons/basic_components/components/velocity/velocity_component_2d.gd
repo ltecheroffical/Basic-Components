@@ -1,5 +1,5 @@
 extends Component
-class_name VelocityComponent
+class_name VelocityComponent2D
 
 
 signal velocity_update(velocity: Vector2)

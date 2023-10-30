@@ -10,10 +10,10 @@ func _enter_tree() -> void:
 		preload("res://addons/basic_components/components/data_component.gd"), null)
 	
 	
-	add_custom_type("VelocityComponent", "Component",
-		preload("res://addons/basic_components/components/velocity_component.gd"), null)
-	add_custom_type("PathfindComponent", "Component",
-		preload("res://addons/basic_components/components/pathfind_component.gd"), null)
+	add_custom_type("VelocityComponent2D", "Component",
+		preload("res://addons/basic_components/components/velocity/velocity_component_2d.gd"), null)
+	add_custom_type("VelocityComponent3D", "Component",
+		preload("res://addons/basic_components/components/velocity/velocity_component_3d.gd"), null)
 
 	
 	add_custom_type("HealthComponent", "Component",
@@ -40,9 +40,9 @@ func _enter_tree() -> void:
 func _exit_tree() -> void:
 	remove_custom_type("Component")
 	remove_custom_type("DataComponent")
-	remove_custom_type("VelocityComponent")
-	remove_custom_type("PathfindComponent")
 	remove_custom_type("HealthComponent")
+	
+	remove_custom_type("VelocityComponent2D")
 	
 	remove_custom_type("InventoryComponent")
 	

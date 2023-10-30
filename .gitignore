@@ -3,3 +3,8 @@
 addons/.DS_Store
 addons/basic_components/.DS_Store
 addons/basic_components/components/hurtbox/.DS_Store
+
+# Geany IDE
+basic_components.geany
+.DS_Store
+addons/.DS_Store
